@@ -1,0 +1,1 @@
+In case something bugs ( as it often happens ), you have to set up "Multiple startup projects" and put the server as startup before the console app as it does use it. I have set this up, but sometimes it loses settings for no reason..

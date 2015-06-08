@@ -1,0 +1,12 @@
+﻿<div class="container animated fadeInRight">
+    <h1 class="text-center">Scores</h1>
+    <ul>
+        <li dir-paginate="(indexS, score) in scores | itemsPerPage: 5">
+            <h3>{{ indexS + 1 }} User: {{ score.User }}</h3>
+            <h4>Score {{ score.Score }}</h4>
+            <h4>Wins: {{ score.Wins }}</h4>
+        </li>
+    </ul>
+
+    <div dir-pagination-controls></div>
+</div>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CreateSimpleWCFService", "01.CreateSimpleWCFService\01.CreateSimpleWCFService.csproj", "{2A073978-7957-4DC7-9BE2-4E8ADD62F99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreateConsoleAppToUseWCFService", "02.CreateConsoleAppToUseWCFService\02.CreateConsoleAppToUseWCFService.csproj", "{A82FA57B-880B-4887-B291-C12B7671997C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A073978-7957-4DC7-9BE2-4E8ADD62F99D} = {2A073978-7957-4DC7-9BE2-4E8ADD62F99D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CreateServiceLibrary", "03.CreateServiceLibrary\03.CreateServiceLibrary.csproj", "{C9B7947F-B1D4-42F8-868D-3AF17B5A10F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.HostServiceInIIS", "04.HostServiceInIIS\04.HostServiceInIIS.csproj", "{F538516B-48F5-4A18-A3F8-B18E52886989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CreateConsoleAppToConsumeService", "05.CreateConsoleAppToConsumeService\05.CreateConsoleAppToConsumeService.csproj", "{8C359C40-5FE0-4207-8315-7F128A78E30B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F538516B-48F5-4A18-A3F8-B18E52886989} = {F538516B-48F5-4A18-A3F8-B18E52886989}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A073978-7957-4DC7-9BE2-4E8ADD62F99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A073978-7957-4DC7-9BE2-4E8ADD62F99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A073978-7957-4DC7-9BE2-4E8ADD62F99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A073978-7957-4DC7-9BE2-4E8ADD62F99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82FA57B-880B-4887-B291-C12B7671997C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82FA57B-880B-4887-B291-C12B7671997C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82FA57B-880B-4887-B291-C12B7671997C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82FA57B-880B-4887-B291-C12B7671997C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B7947F-B1D4-42F8-868D-3AF17B5A10F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B7947F-B1D4-42F8-868D-3AF17B5A10F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B7947F-B1D4-42F8-868D-3AF17B5A10F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B7947F-B1D4-42F8-868D-3AF17B5A10F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F538516B-48F5-4A18-A3F8-B18E52886989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F538516B-48F5-4A18-A3F8-B18E52886989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F538516B-48F5-4A18-A3F8-B18E52886989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F538516B-48F5-4A18-A3F8-B18E52886989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C359C40-5FE0-4207-8315-7F128A78E30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C359C40-5FE0-4207-8315-7F128A78E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C359C40-5FE0-4207-8315-7F128A78E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C359C40-5FE0-4207-8315-7F128A78E30B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
