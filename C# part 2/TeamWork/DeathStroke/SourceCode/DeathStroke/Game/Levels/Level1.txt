@@ -1,0 +1,12 @@
+Dog 2
+10 15
+20 15
+Giraffe 2
+40 25
+30 10
+AwayTree 2
+5 10
+15 10
+CloseTree 2
+50 20
+30 20
