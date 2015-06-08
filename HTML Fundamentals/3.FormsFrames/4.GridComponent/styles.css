@@ -1,0 +1,38 @@
+﻿thead, tfoot {
+    background-color: #e6e6e6;
+}
+
+table {
+    border-radius: 10px 10px 10px 10px;
+    border-collapse:separate;
+}
+
+table, thead, tbody, tr, td, th {
+    margin: 0;
+    border: 1px solid #D6D6D6;
+    border-collapse: collapse;
+}
+
+tfoot, tfoot td, tfoot tr {
+    border-color: #e6e6e6;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body, table, th, td, a, thead, tbody, tfoot, tr {
+    color: #312319;
+    margin: 5px;
+    padding: 4px;
+}
+
+#highlighted {
+    border: 1px solid #ff6a00;
+}
+
+th {
+    text-align: left;
+}
+

@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration form</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form method="post" action="">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <th align="right" width="160">Last Name</th>
+                    <td><input type="text" value="Nakov" size="60" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">First Name</th>
+                    <td><input type="text" value="Svetlin" size="60" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Address</th>
+                    <td><textarea cols="44" rows="4">17 Hristo Botev Str floor 3, apt. 12</textarea></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">City</th>
+                    <td><input type="text" value="Kaspichan" size="45" /><strong> State </strong><input type="text" size="2" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Zip/Postal Code</th>
+                    <td><input type="text" value="9325" size="8" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Country</th>
+                    <td>
+                        <select name="gender">
+                            <option value="1" selected>Bulgaria</option>
+                            <option value="2">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">
+                        Phone(Country code,<br />
+                        area code, number)
+                    </th>
+                    <td>(+<input type="text" value="359" size="6" /> ) <input type="text" value="88" size="6" /> - <input type="text" value="8334343" size="25" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">E-mail</th>
+                    <td><input type="text" value="nakov@kaspichan.org" size="60" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">
+                        Birth Date
+                    </th>
+                    <td> Month <input type="text" value="06" size="2" /> Day <input type="text" value="14" size="2" /> Year (4 digit) <input type="text" value="1980" size="19" /></td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Gender</th>
+                    <td>
+                        <select name="gender">
+                            <option value="1" selected>Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Starting date</th>
+                    <td>
+                        <input type="radio" name="date" value="Spring 2006" id="spring2006"/><label for="spring2006"> Spring 2006 </label>
+                        <input type="radio" name="date" value="Summer 2006" id="summer2006" /><label for="summer2006"> Summer 2006 </label>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="right" width="160">Comments/Questions</th>
+                    <td><textarea cols="44" rows="6">Please send me more information about the lodging</textarea></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear This Form" />
+                    </td>
+                </tr> 
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿body {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+table, thead, tbody, td, th {
+    text-align:center;
+    padding: 5px;
+    border-collapse:collapse;
+    border: 2px solid black;
+}
+
+header {
+    text-align: center;
+}

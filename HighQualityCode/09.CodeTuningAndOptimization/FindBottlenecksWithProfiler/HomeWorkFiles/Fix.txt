@@ -1,0 +1,1 @@
+﻿The problem was in OrbitsCalculator.cs, EarthRotation method row 96, as it was needlessly running a cycle.
