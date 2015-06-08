@@ -1,0 +1,17 @@
+extends ../shared/layout
+block main-content
+    br
+    button(id="add-file") Add file
+    br
+    br
+    form.form-horizontal(id="upload-form" method="post" enctype="multipart/form-data")
+        div.form-group
+            label(for="file") File
+            input.form-control(id="file" type="file" name="file_0")
+            label(for="priv") Private
+            input.checkbox(id="priv" type="checkbox", name="file_0private")
+        div.form-group
+            input.btn.btn-success(type="submit" value="Submit")
+
+block page-scripts
+    script(src="/app/upload.js")

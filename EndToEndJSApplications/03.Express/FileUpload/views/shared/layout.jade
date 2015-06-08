@@ -1,0 +1,43 @@
+doctype
+html
+    head
+        title File Upload
+        link(rel="stylesheet" href="/lib/bootstrap-3.2.0/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/css/site.css")
+    body
+        header.nav.navbar-inverse
+            .container
+                .navbar-header
+                    a.navbar-brand(href="/") File Upload
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href="/") Home
+                        li
+                            a(href="/files") Files
+                        if !currentUser
+                            li
+                                a(href="/register") Register
+                            li
+                                a(href="/login") Login
+                        else
+                            li
+                                a(href="/upload") Upload
+                            li
+                                a(href="/profile") Hello, #{currentUser.username}!
+                            li
+                                a(href="/logout") Logout
+
+        .container
+            br
+            if errorMessage
+                .alert.alert-danger(role="alert") #{errorMessage}
+
+            block main-content
+
+        footer.panel-footer
+            p.text-center
+                | &copy; Telerik Academy 2014
+
+        include scripts
+        block page-scripts

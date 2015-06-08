@@ -1,0 +1,37 @@
+extends ../shared/layout
+block main-content
+    .form-group.row
+        div.col-lg-3
+            | Search
+            input.form-control(type="text" id="search")
+        div.col-lg-3
+            | Order by
+            select.form-control(id="order-by")
+                option(value="id") Id
+                option(value ="url") URL
+        div.col-lg-3
+            | Sort
+            select.form-control(id="sort")
+                option(value="asc") Ascending
+                option(value ="desc") Descending
+        div.col-lg-3
+            | Press to filter
+            a.btn.btn-default.form-control(id="filter") Filter
+
+    table.table.table-bordered
+        tr
+            th File name
+        - for(var i = 0; i < files.length; i++) {
+            - var url = '/files/download/' + files[i].url;
+            tr
+                td
+                    a(href="#{url}") #{files[i].fileName}
+        - }
+
+    .form-group
+        a.btn.btn-default(id="prev" href="files?page=#{options.prevPage}&orderBy=#{options.orderBy}&sortType=#{options.sortType}&search=#{options.search}") <<
+        span.btn(id="page") #{options.page}
+        a.btn.btn-default(id="next" href="files?page=#{options.nextPage}&orderBy=#{options.orderBy}&sortType=#{options.sortType}&search=#{options.search}") >>
+
+block page-scripts
+    script(src="/app/list.js")

@@ -1,0 +1,13 @@
+{
+  "name": "FileUploadWebsite",
+  "version": "0.0.0",
+  "description": "FileUploadWebsite",
+  "main": "app.js",
+  "author": {
+    "name": "Nikki",
+    "email": ""
+  },
+  "dependencies": {
+    "formidable": "^1.0.15"
+  }
+}

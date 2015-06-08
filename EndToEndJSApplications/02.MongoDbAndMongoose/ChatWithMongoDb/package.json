@@ -1,0 +1,13 @@
+{
+  "name": "ChatWithMongoDb",
+  "version": "0.0.0",
+  "description": "ChatWithMongoDb",
+  "main": "app.js",
+  "author": {
+    "name": "Nikki",
+    "email": ""
+  },
+  "dependencies": {
+    "mongoose": "^3.8.17"
+  }
+}

@@ -1,0 +1,12 @@
+extends ../shared/layout
+block main-content
+    br
+    form.form-horizontal(method="post")
+        div.form-group
+            label(for="username") Username
+            input.form-control(id="username" type="text" name="username" placeholder="Username")
+        div.form-group
+            label(for="password") Password
+            input.form-control(id="password" type="password" name="password" placeholder="Password")
+        div.form-group
+            input.btn.btn-success(type="submit" value="Submit")
