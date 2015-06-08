@@ -1,0 +1,209 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+div,
+h1,
+h3,
+h4,
+h5,
+h6,
+header,
+footer,
+body,
+section,
+nav,
+article,
+aside {
+  display: block;
+}
+html {
+  height: 100%;
+}
+body {
+  padding: 30px;
+  font: 14px normal Arial;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background: #d392fd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d392fd 0%, #8f1aef 16%, #9215f2 51%, #9215f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d392fd), color-stop(16%, #8f1aef), color-stop(51%, #9215f2), color-stop(100%, #9215f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d392fd 0%, #8f1aef 16%, #9215f2 51%, #9215f2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d392fd 0%, #8f1aef 16%, #9215f2 51%, #9215f2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d392fd 0%, #8f1aef 16%, #9215f2 51%, #9215f2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d392fd 0%, #8f1aef 16%, #9215f2 51%, #9215f2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d392fd', endColorstr='#9215f2', GradientType=0);
+  /* IE6-9 */
+}
+#logo-container,
+#reg-form-container {
+  display: inline-block;
+}
+ul,
+li {
+  list-style-type: none;
+}
+#reg-form-container {
+  text-align: right;
+  float: right;
+  margin-right: 60px;
+}
+#reg-form-container label {
+  width: 50px;
+  margin: 5px;
+}
+#reg-form-container input {
+  width: 130px;
+  border: 1px solid #603382;
+  border-radius: 10px;
+  padding: 2px 5px;
+  margin: 5px;
+  background-color: #B35EF3;
+}
+#reg-form-container button {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  border: 1px solid #603382;
+  border-style: outset;
+  border-radius: 10px;
+  padding: 5px 8px;
+  background-color: #B35EF3;
+  color: white;
+  float: left;
+}
+nav {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px 15px;
+  width: 75%;
+  font-size: 1.4em;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav > ul > li {
+  padding: 0 5px;
+  margin: 0 10px;
+  display: inline-block;
+  position: relative;
+}
+nav > ul > li:hover .sub-nav-list {
+  display: block;
+}
+nav > ul > li .sub-nav-list {
+  font-size: 0.9em;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #8f1aef;
+  width: 150px;
+  position: absolute;
+  left: -50px;
+  top: 25px;
+  display: none;
+  margin: 15px 15px;
+  padding: 10px 20px;
+}
+nav > ul > li .sub-nav-list a {
+  display: inline-block;
+  padding: 5px 0;
+}
+nav > ul > li .sub-nav-list a:hover {
+  text-decoration: underline;
+}
+section {
+  float: left;
+  width: 75%;
+}
+section article {
+  padding: 30px;
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+section article h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 5px;
+}
+section article p {
+  padding: 5px 0;
+}
+section article a {
+  color: #D4A3F8;
+  text-decoration: none;
+}
+section article footer {
+  float: right;
+}
+section article footer p time {
+  font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+}
+aside {
+  float: left;
+  width: 20%;
+  margin-top: 15px;
+}
+aside > ul > li {
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 30px;
+}
+aside > ul > li ul {
+  margin: 10px 0;
+}
+aside > ul > li ul li {
+  margin: 5px 10px 0 0;
+  background: url(images/li-dot.png) no-repeat;
+  background-position: 0 50%;
+  padding-left: 25px;
+}
+aside > ul > li p {
+  margin: 10px 5px;
+}
+aside > ul > li p a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+aside > ul > li p strong {
+  color: #cccccc;
+  font-weight: bold;
+  font-style: normal;
+}
+aside > ul > li p em {
+  color: #cccccc;
+  font-weight: normal;
+  font-style: italic;
+}
+body > footer {
+  clear: both;
+}
+body > footer > p {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  left: 0;
+  bottom: 0;
+  padding: 15px 0 25px 0;
+}
+/*# sourceMappingURL=siteStyle.css.map */

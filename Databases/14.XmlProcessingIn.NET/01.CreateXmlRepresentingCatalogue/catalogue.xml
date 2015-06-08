@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album artist="Artist name" album-name="Album 0" year="2007" producer="Some record company 0" price="18.3">
+    <song>
+      <title>0 Song name 0</title>
+      <duration>0.33</duration>
+    </song>
+    <song>
+      <title>1 Song name 0</title>
+      <duration>1.33</duration>
+    </song>
+    <song>
+      <title>2 Song name 0</title>
+      <duration>2.33</duration>
+    </song>
+    <song>
+      <title>3 Song name 0</title>
+      <duration>3.33</duration>
+    </song>
+    <song>
+      <title>4 Song name 0</title>
+      <duration>4.33</duration>
+    </song>
+    <song>
+      <title>5 Song name 0</title>
+      <duration>5.33</duration>
+    </song>
+    <song>
+      <title>6 Song name 0</title>
+      <duration>6.33</duration>
+    </song>
+    <song>
+      <title>7 Song name 0</title>
+      <duration>7.33</duration>
+    </song>
+    <song>
+      <title>8 Song name 0</title>
+      <duration>8.33</duration>
+    </song>
+    <song>
+      <title>9 Song name 0</title>
+      <duration>9.33</duration>
+    </song>
+  </album>
+  <album artist="Artist name" album-name="Album 1" year="2008" producer="Some record company 1" price="19.3">
+    <song>
+      <title>0 Song name 1</title>
+      <duration>1.33</duration>
+    </song>
+    <song>
+      <title>1 Song name 1</title>
+      <duration>2.33</duration>
+    </song>
+    <song>
+      <title>2 Song name 1</title>
+      <duration>3.33</duration>
+    </song>
+    <song>
+      <title>3 Song name 1</title>
+      <duration>4.33</duration>
+    </song>
+    <song>
+      <title>4 Song name 1</title>
+      <duration>5.33</duration>
+    </song>
+    <song>
+      <title>5 Song name 1</title>
+      <duration>6.33</duration>
+    </song>
+    <song>
+      <title>6 Song name 1</title>
+      <duration>7.33</duration>
+    </song>
+    <song>
+      <title>7 Song name 1</title>
+      <duration>8.33</duration>
+    </song>
+    <song>
+      <title>8 Song name 1</title>
+      <duration>9.33</duration>
+    </song>
+    <song>
+      <title>9 Song name 1</title>
+      <duration>10.33</duration>
+    </song>
+  </album>
+  <album artist="Artist name" album-name="Album 2" year="2009" producer="Some record company 2" price="20.3">
+    <song>
+      <title>0 Song name 2</title>
+      <duration>2.33</duration>
+    </song>
+    <song>
+      <title>1 Song name 2</title>
+      <duration>3.33</duration>
+    </song>
+    <song>
+      <title>2 Song name 2</title>
+      <duration>4.33</duration>
+    </song>
+    <song>
+      <title>3 Song name 2</title>
+      <duration>5.33</duration>
+    </song>
+    <song>
+      <title>4 Song name 2</title>
+      <duration>6.33</duration>
+    </song>
+    <song>
+      <title>5 Song name 2</title>
+      <duration>7.33</duration>
+    </song>
+    <song>
+      <title>6 Song name 2</title>
+      <duration>8.33</duration>
+    </song>
+    <song>
+      <title>7 Song name 2</title>
+      <duration>9.33</duration>
+    </song>
+    <song>
+      <title>8 Song name 2</title>
+      <duration>10.33</duration>
+    </song>
+    <song>
+      <title>9 Song name 2</title>
+      <duration>11.33</duration>
+    </song>
+  </album>
+  <album artist="Artist name" album-name="Album 3" year="2010" producer="Some record company 3" price="21.3">
+    <song>
+      <title>0 Song name 3</title>
+      <duration>3.33</duration>
+    </song>
+    <song>
+      <title>1 Song name 3</title>
+      <duration>4.33</duration>
+    </song>
+    <song>
+      <title>2 Song name 3</title>
+      <duration>5.33</duration>
+    </song>
+    <song>
+      <title>3 Song name 3</title>
+      <duration>6.33</duration>
+    </song>
+    <song>
+      <title>4 Song name 3</title>
+      <duration>7.33</duration>
+    </song>
+    <song>
+      <title>5 Song name 3</title>
+      <duration>8.33</duration>
+    </song>
+    <song>
+      <title>6 Song name 3</title>
+      <duration>9.33</duration>
+    </song>
+    <song>
+      <title>7 Song name 3</title>
+      <duration>10.33</duration>
+    </song>
+    <song>
+      <title>8 Song name 3</title>
+      <duration>11.33</duration>
+    </song>
+    <song>
+      <title>9 Song name 3</title>
+      <duration>12.33</duration>
+    </song>
+  </album>
+  <album artist="Artist name" album-name="Album 4" year="2011" producer="Some record company 4" price="22.3">
+    <song>
+      <title>0 Song name 4</title>
+      <duration>4.33</duration>
+    </song>
+    <song>
+      <title>1 Song name 4</title>
+      <duration>5.33</duration>
+    </song>
+    <song>
+      <title>2 Song name 4</title>
+      <duration>6.33</duration>
+    </song>
+    <song>
+      <title>3 Song name 4</title>
+      <duration>7.33</duration>
+    </song>
+    <song>
+      <title>4 Song name 4</title>
+      <duration>8.33</duration>
+    </song>
+    <song>
+      <title>5 Song name 4</title>
+      <duration>9.33</duration>
+    </song>
+    <song>
+      <title>6 Song name 4</title>
+      <duration>10.33</duration>
+    </song>
+    <song>
+      <title>7 Song name 4</title>
+      <duration>11.33</duration>
+    </song>
+    <song>
+      <title>8 Song name 4</title>
+      <duration>12.33</duration>
+    </song>
+    <song>
+      <title>9 Song name 4</title>
+      <duration>13.33</duration>
+    </song>
+  </album>
+</catalogue>

@@ -1,0 +1,11 @@
+Connection string for "Company" database: (location) <add name="CompanyDbContext" connectionString="metadata=res://*/CompanyModel.csdl|res://*/CompanyModel.ssdl|res://*/CompanyModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+Connection string for "Cars" database: (location) .
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+Employees - Reports - one to many
+Employees ( ManagerId ) - Employees  - one to many
+Departments - Employees - one to many
+Employees - Projects - many to many with EmployeesProjects table.
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+Query files: (file location in solution)

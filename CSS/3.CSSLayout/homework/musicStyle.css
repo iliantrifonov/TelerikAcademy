@@ -1,0 +1,80 @@
+﻿body, html, img, button, div, p, section, article, button {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: Arial;
+}
+
+#wrapper, body, html {
+    font-size: 10px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight:  normal;
+}
+
+article {
+    background-color: white;
+    font-size: 1.1rem;
+    border: 1px solid #b3b3b3;
+    width: 310px;
+    text-align: left;
+    padding: 16px;
+    margin: 36px 0 16px 0;
+    overflow: hidden;
+}
+
+img {
+    width: 110px;
+    float: left;
+    text-wrap: normal;
+    margin: 0 16px 0 0;
+    border: 1px solid #b3b3b3;  
+}
+
+button {
+    height: 25px;
+    border-color: #800;
+    color: white;
+    padding-left: 16px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.controls {
+    float:right;
+}
+.add {
+    background-image: url(imgs/buttonRight.png);
+    width: 63px;
+}
+
+.listen {
+    background-image: url(imgs/buttonLeft.png);
+    width: 76px;
+}
+
+
+
+#wrapper {
+    background-color: #EEEEEE;
+    width: 345px;
+    padding: 15px;
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 15px;
+}

@@ -1,0 +1,86 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+body, htlm, #wrapper {
+        font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+        font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+aside {
+    padding: 10px 20px;
+    &>ul {
+        display: block;
+        width: 185px;
+        padding: 5px 15px;
+        border-radius: 10px;
+        background: #d29bff;
+        background: -moz-linear-gradient(top,  #d29bff 0%, #8a77ff 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d29bff), color-stop(100%,#8a77ff));
+        background: -webkit-linear-gradient(top,  #d29bff 0%,#8a77ff 100%);
+        background: -o-linear-gradient(top,  #d29bff 0%,#8a77ff 100%);
+        background: -ms-linear-gradient(top,  #d29bff 0%,#8a77ff 100%);
+        background: linear-gradient(to bottom,  #d29bff 0%,#8a77ff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d29bff', endColorstr='#8a77ff',GradientType=0 );
+
+        &>li {
+            position: relative;
+            padding: 5px 15px;
+            font-size: 1.4em;
+            border-bottom: 1px solid #9D00FF;
+            &:last-child {
+                border: none;
+            }
+            &:hover {
+                border: 1px solid #9D00FF;
+                border-radius: 5px;
+                &> ul {
+                    padding: 5px 5px 5px 20px;
+                    border-radius: 10px;
+                    font-size: 0.8em;
+                    background: #b5aaff;
+                    position: absolute;
+                    left: 190px;
+                    top: -5px;
+                    display: block;
+                    width: 212px;
+                    &>li {
+                        display: block;
+                        padding: 5px 18px;
+                        border-bottom: 1px solid #9D00FF;
+                        &:last-child {
+                            border: none;
+                        }
+                        
+                        &:first-child {
+                            &:before {
+                                content: url("imgs/arrow.png");
+                                position: absolute;
+                                left: 5px;
+                                top: 13px;
+                            }
+                        }
+                        
+                        &:hover {
+                            border: 1px solid #9D00FF;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+            &>ul {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+﻿body {
+}
+a {
+    text-decoration:none;
+    color:#efefbf;
+}
+th {
+    font-weight:normal;
+}
+table {
+    background-color:#808080;
+}
+
+#head {
+    font-size: 20px;
+    color:#bababa;
+    text-align: left;
+}
+td {
+    width:180px;
+}
+
+.yellow {
+    color:#efefbf;
+    
+}
+.grey {
+    color:#bababa;
+}
+.first {
+    color:white;
+    font-style:italic;
+    width: 120px;
+    vertical-align:top;
+}
+.orange {
+    color:orange;
+}
+#circle {
+    vertical-align: -11px;        
+    font-size: 55px;
+    line-height: 3px;             
+    color: #8FBC8F;
+}
+
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: bold;
+}

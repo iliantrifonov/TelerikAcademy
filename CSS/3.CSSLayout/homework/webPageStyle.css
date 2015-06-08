@@ -1,0 +1,173 @@
+﻿body, html, img, button, div, p, section, article, aside, button, h2, input, form, ul, li, nav, a, header, h1, h3, h4, h5, h6, a, button  {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body, html, #wrapper {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#home:before {
+    content: url(imgs/icon-home.png);
+    vertical-align: -40%
+}
+
+#home {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.bordo:first-line {
+    color: #B25C5B;
+    font-weight: bold;
+}
+
+nav {
+    float: left;
+}
+
+.bordo {
+    margin-top: 10px;
+}
+
+#wrapper {
+    border: 1px solid black;
+    padding: 2px;
+    background-color: #F1F1F1;
+    overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin:15px 0;
+}
+
+.prev, .next {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 2px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.prev:before{
+    font-size: 10px;
+    content: "◄";
+    position: relative;
+    left: -28px;
+}
+
+.next:after {
+    font-size: 10px;
+    content: "►";
+    position: relative;
+    left: 40px;
+}
+
+h2 {
+    overflow:hidden;
+    font-size: 1.3rem;
+    background: #808080;
+    color: white;
+    padding: 1px 3px;
+    margin-top: 5px;
+}
+
+
+#inlineDiv {
+    font-weight: bold;
+    font-size: 1.2rem;
+    display:inline-block;
+}
+
+p {
+    padding: 3px;
+    margin-top: 10px;
+    font-size:1.1rem;
+}
+
+section {
+    border: 1px solid #CACACA;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+a {
+    color: #A1302E;
+    font-size:1.1rem;
+}
+
+
+
+.buttons {
+    padding: 25px 0;
+    margin: 15px 0;
+    border-bottom: 1px solid grey;
+}
+
+.buttonsBottom {
+    padding: 15px 0;
+    margin: 5px 0 20px 0;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+aside {
+    float: right;
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+}
+
+.bordoNonBold {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid grey;
+    width: 92.5%;
+}
+
+.search {
+    width: 70%;
+}
+
+.btn {
+    width: 20%;
+    border: 1px solid #39638A;
+    margin: 2px 5px;
+    border-radius: 4px;
+}
+
+#plus {
+    display: inline-block;
+    width: 102px;
+    height: 31px;
+    background-image: url(imgs/25-styles.png);
+    margin: 3px 25px;
+}
+
+article {
+    margin: 20px 0;
+}

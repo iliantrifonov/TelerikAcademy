@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+  <dir path="../../../">
+    <dir path="../../../01.CreateXmlRepresentingCatalogue">
+      <dir path="../../../01.CreateXmlRepresentingCatalogue\bin">
+        <dir path="../../../01.CreateXmlRepresentingCatalogue\bin\Debug">
+          <file>../../../01.CreateXmlRepresentingCatalogue\bin\Debug\01.CreateXmlRepresentingCatalogue.exe</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\bin\Debug\01.CreateXmlRepresentingCatalogue.exe.config</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\bin\Debug\01.CreateXmlRepresentingCatalogue.pdb</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\bin\Debug\01.CreateXmlRepresentingCatalogue.vshost.exe</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\bin\Debug\01.CreateXmlRepresentingCatalogue.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../01.CreateXmlRepresentingCatalogue\bin\Release" />
+      </dir>
+      <dir path="../../../01.CreateXmlRepresentingCatalogue\obj">
+        <dir path="../../../01.CreateXmlRepresentingCatalogue\obj\Debug">
+          <dir path="../../../01.CreateXmlRepresentingCatalogue\obj\Debug\TempPE" />
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\01.CreateXmlRepresentingCatalogue.csproj.FileListAbsolute.txt</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\01.CreateXmlRepresentingCatalogue.csprojResolveAssemblyReference.cache</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\01.CreateXmlRepresentingCatalogue.exe</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\01.CreateXmlRepresentingCatalogue.pdb</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../01.CreateXmlRepresentingCatalogue\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../01.CreateXmlRepresentingCatalogue\Properties">
+        <file>../../../01.CreateXmlRepresentingCatalogue\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../01.CreateXmlRepresentingCatalogue\01.CreateXmlRepresentingCatalogue.csproj</file>
+      <file>../../../01.CreateXmlRepresentingCatalogue\01.CreateXmlRepresentingCatalogue.csproj.user</file>
+      <file>../../../01.CreateXmlRepresentingCatalogue\App.config</file>
+      <file>../../../01.CreateXmlRepresentingCatalogue\catalogue.xml</file>
+      <file>../../../01.CreateXmlRepresentingCatalogue\Program.cs</file>
+    </dir>
+    <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser">
+      <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin">
+        <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug">
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.exe</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.exe.config</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.pdb</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.vshost.exe</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\bin\Release" />
+      </dir>
+      <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj">
+        <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug">
+          <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\TempPE" />
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.csproj.FileListAbsolute.txt</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.exe</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.pdb</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\Properties">
+        <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\02.ExtractArtistsAndNumberOfAlbumsWithDomParser.csproj</file>
+      <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\App.config</file>
+      <file>../../../02.ExtractArtistsAndNumberOfAlbumsWithDomParser\Program.cs</file>
+    </dir>
+    <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath">
+      <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin">
+        <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug">
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.exe</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.exe.config</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.pdb</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.vshost.exe</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\bin\Release" />
+      </dir>
+      <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj">
+        <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug">
+          <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\TempPE" />
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.csproj.FileListAbsolute.txt</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.csprojResolveAssemblyReference.cache</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.exe</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\03.ExtractArtistsAndNumberOfAlbumsWithXPath.pdb</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\Properties">
+        <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\03.ExtractArtistsAndNumberOfAlbumsWithXPath.csproj</file>
+      <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\App.config</file>
+      <file>../../../03.ExtractArtistsAndNumberOfAlbumsWithXPath\Program.cs</file>
+    </dir>
+    <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser">
+      <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin">
+        <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug">
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.exe</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.exe.config</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.pdb</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.vshost.exe</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\bin\Release" />
+      </dir>
+      <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj">
+        <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug">
+          <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\TempPE" />
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.csproj.FileListAbsolute.txt</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.exe</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\04.DeleteAlbumsWithPriceOver20WithDomParser.pdb</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../04.DeleteAlbumsWithPriceOver20WithDomParser\Properties">
+        <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\04.DeleteAlbumsWithPriceOver20WithDomParser.csproj</file>
+      <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\App.config</file>
+      <file>../../../04.DeleteAlbumsWithPriceOver20WithDomParser\Program.cs</file>
+    </dir>
+    <dir path="../../../05.ExtractAllSongsWithXmlReader">
+      <dir path="../../../05.ExtractAllSongsWithXmlReader\bin">
+        <dir path="../../../05.ExtractAllSongsWithXmlReader\bin\Debug">
+          <file>../../../05.ExtractAllSongsWithXmlReader\bin\Debug\05.ExtractAllSongsWithXmlReader.exe</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\bin\Debug\05.ExtractAllSongsWithXmlReader.exe.config</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\bin\Debug\05.ExtractAllSongsWithXmlReader.pdb</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\bin\Debug\05.ExtractAllSongsWithXmlReader.vshost.exe</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\bin\Debug\05.ExtractAllSongsWithXmlReader.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../05.ExtractAllSongsWithXmlReader\bin\Release" />
+      </dir>
+      <dir path="../../../05.ExtractAllSongsWithXmlReader\obj">
+        <dir path="../../../05.ExtractAllSongsWithXmlReader\obj\Debug">
+          <dir path="../../../05.ExtractAllSongsWithXmlReader\obj\Debug\TempPE" />
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\05.ExtractAllSongsWithXmlReader.csproj.FileListAbsolute.txt</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\05.ExtractAllSongsWithXmlReader.exe</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\05.ExtractAllSongsWithXmlReader.pdb</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../05.ExtractAllSongsWithXmlReader\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../05.ExtractAllSongsWithXmlReader\Properties">
+        <file>../../../05.ExtractAllSongsWithXmlReader\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../05.ExtractAllSongsWithXmlReader\05.ExtractAllSongsWithXmlReader.csproj</file>
+      <file>../../../05.ExtractAllSongsWithXmlReader\App.config</file>
+      <file>../../../05.ExtractAllSongsWithXmlReader\Program.cs</file>
+    </dir>
+    <dir path="../../../06.ExtractAllSongsWithXDocument">
+      <dir path="../../../06.ExtractAllSongsWithXDocument\bin">
+        <dir path="../../../06.ExtractAllSongsWithXDocument\bin\Debug">
+          <file>../../../06.ExtractAllSongsWithXDocument\bin\Debug\06.ExtractAllSongsWithXDocument.exe</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\bin\Debug\06.ExtractAllSongsWithXDocument.exe.config</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\bin\Debug\06.ExtractAllSongsWithXDocument.pdb</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\bin\Debug\06.ExtractAllSongsWithXDocument.vshost.exe</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\bin\Debug\06.ExtractAllSongsWithXDocument.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../06.ExtractAllSongsWithXDocument\bin\Release" />
+      </dir>
+      <dir path="../../../06.ExtractAllSongsWithXDocument\obj">
+        <dir path="../../../06.ExtractAllSongsWithXDocument\obj\Debug">
+          <dir path="../../../06.ExtractAllSongsWithXDocument\obj\Debug\TempPE" />
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\06.ExtractAllSongsWithXDocument.csproj.FileListAbsolute.txt</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\06.ExtractAllSongsWithXDocument.csprojResolveAssemblyReference.cache</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\06.ExtractAllSongsWithXDocument.exe</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\06.ExtractAllSongsWithXDocument.pdb</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../06.ExtractAllSongsWithXDocument\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../06.ExtractAllSongsWithXDocument\Properties">
+        <file>../../../06.ExtractAllSongsWithXDocument\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../06.ExtractAllSongsWithXDocument\06.ExtractAllSongsWithXDocument.csproj</file>
+      <file>../../../06.ExtractAllSongsWithXDocument\App.config</file>
+      <file>../../../06.ExtractAllSongsWithXDocument\Program.cs</file>
+    </dir>
+    <dir path="../../../07.CreateXmlFromTextFile">
+      <dir path="../../../07.CreateXmlFromTextFile\bin">
+        <dir path="../../../07.CreateXmlFromTextFile\bin\Debug">
+          <file>../../../07.CreateXmlFromTextFile\bin\Debug\07.CreateXmlFromTextFile.exe</file>
+          <file>../../../07.CreateXmlFromTextFile\bin\Debug\07.CreateXmlFromTextFile.exe.config</file>
+          <file>../../../07.CreateXmlFromTextFile\bin\Debug\07.CreateXmlFromTextFile.pdb</file>
+          <file>../../../07.CreateXmlFromTextFile\bin\Debug\07.CreateXmlFromTextFile.vshost.exe</file>
+          <file>../../../07.CreateXmlFromTextFile\bin\Debug\07.CreateXmlFromTextFile.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../07.CreateXmlFromTextFile\bin\Release" />
+      </dir>
+      <dir path="../../../07.CreateXmlFromTextFile\obj">
+        <dir path="../../../07.CreateXmlFromTextFile\obj\Debug">
+          <dir path="../../../07.CreateXmlFromTextFile\obj\Debug\TempPE" />
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\07.CreateXmlFromTextFile.csproj.FileListAbsolute.txt</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\07.CreateXmlFromTextFile.exe</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\07.CreateXmlFromTextFile.pdb</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../07.CreateXmlFromTextFile\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../07.CreateXmlFromTextFile\Properties">
+        <file>../../../07.CreateXmlFromTextFile\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../07.CreateXmlFromTextFile\07.CreateXmlFromTextFile.csproj</file>
+      <file>../../../07.CreateXmlFromTextFile\07.CreateXmlFromTextFile.csproj.user</file>
+      <file>../../../07.CreateXmlFromTextFile\App.config</file>
+      <file>../../../07.CreateXmlFromTextFile\person.txt</file>
+      <file>../../../07.CreateXmlFromTextFile\person.xml</file>
+      <file>../../../07.CreateXmlFromTextFile\Program.cs</file>
+    </dir>
+    <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter">
+      <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\bin">
+        <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug">
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug\08.CreateAlbumUsingXmlReaderAndWriter.exe</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug\08.CreateAlbumUsingXmlReaderAndWriter.exe.config</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug\08.CreateAlbumUsingXmlReaderAndWriter.pdb</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug\08.CreateAlbumUsingXmlReaderAndWriter.vshost.exe</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Debug\08.CreateAlbumUsingXmlReaderAndWriter.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\bin\Release" />
+      </dir>
+      <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\obj">
+        <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug">
+          <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\TempPE" />
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\08.CreateAlbumUsingXmlReaderAndWriter.csproj.FileListAbsolute.txt</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\08.CreateAlbumUsingXmlReaderAndWriter.csprojResolveAssemblyReference.cache</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\08.CreateAlbumUsingXmlReaderAndWriter.exe</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\08.CreateAlbumUsingXmlReaderAndWriter.pdb</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../08.CreateAlbumUsingXmlReaderAndWriter\Properties">
+        <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\08.CreateAlbumUsingXmlReaderAndWriter.csproj</file>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\08.CreateAlbumUsingXmlReaderAndWriter.csproj.user</file>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\Album.cs</file>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\album.xml</file>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\App.config</file>
+      <file>../../../08.CreateAlbumUsingXmlReaderAndWriter\Program.cs</file>
+    </dir>
+    <dir path="../../../09.CreateXmlFromDirectoryAndFiles">
+      <dir path="../../../09.CreateXmlFromDirectoryAndFiles\bin">
+        <dir path="../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug">
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug\09.CreateXmlFromDirectoryAndFiles.exe</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug\09.CreateXmlFromDirectoryAndFiles.exe.config</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug\09.CreateXmlFromDirectoryAndFiles.pdb</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug\09.CreateXmlFromDirectoryAndFiles.vshost.exe</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\bin\Debug\09.CreateXmlFromDirectoryAndFiles.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../09.CreateXmlFromDirectoryAndFiles\bin\Release" />
+      </dir>
+      <dir path="../../../09.CreateXmlFromDirectoryAndFiles\obj">
+        <dir path="../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug">
+          <dir path="../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\TempPE" />
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\09.CreateXmlFromDirectoryAndFiles.csproj.FileListAbsolute.txt</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\09.CreateXmlFromDirectoryAndFiles.csprojResolveAssemblyReference.cache</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\09.CreateXmlFromDirectoryAndFiles.exe</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\09.CreateXmlFromDirectoryAndFiles.pdb</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../09.CreateXmlFromDirectoryAndFiles\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../09.CreateXmlFromDirectoryAndFiles\Properties">
+        <file>../../../09.CreateXmlFromDirectoryAndFiles\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../09.CreateXmlFromDirectoryAndFiles\09.CreateXmlFromDirectoryAndFiles.csproj</file>
+      <file>../../../09.CreateXmlFromDirectoryAndFiles\09.CreateXmlFromDirectoryAndFiles.csproj.user</file>
+      <file>../../../09.CreateXmlFromDirectoryAndFiles\App.config</file>
+      <file>../../../09.CreateXmlFromDirectoryAndFiles\directory-structure.xml</file>
+      <file>../../../09.CreateXmlFromDirectoryAndFiles\Program.cs</file>
+    </dir>
+    <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath">
+      <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin">
+        <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug">
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.exe</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.exe.config</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.pdb</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.vshost.exe</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.vshost.exe.config</file>
+        </dir>
+        <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\bin\Release" />
+      </dir>
+      <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj">
+        <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug">
+          <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\TempPE" />
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.csproj.FileListAbsolute.txt</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.csprojResolveAssemblyReference.cache</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.exe</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\10.CreateXmlFromDirectoryAndFilesWithXPath.pdb</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</file>
+          <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</file>
+        </dir>
+      </dir>
+      <dir path="../../../10.CreateXmlFromDirectoryAndFilesWithXPath\Properties">
+        <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\Properties\AssemblyInfo.cs</file>
+      </dir>
+      <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\10.CreateXmlFromDirectoryAndFilesWithXPath.csproj</file>
+      <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\10.CreateXmlFromDirectoryAndFilesWithXPath.csproj.user</file>
+      <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\App.config</file>
+      <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\directory-structure.xml</file>
+      <file>../../../10.CreateXmlFromDirectoryAndFilesWithXPath\Program.cs</file>
+    </dir>
+    <file>../../../14.XmlProcessingIn.NET.jmconfig</file>
+    <file>../../../14.XmlProcessingIn.NET.sln</file>
+    <file>../../../14.XmlProcessingIn.NET.v12.suo</file>
+  </dir>
+</directories>

@@ -1,0 +1,24 @@
+IMPORTANT - in Company solutuion, there is an abstract class that removes the Entity framework change checker, it does it automatically!
+
+
+Connection string for "Company" database: (location) <add name="CompanyDbContext" connectionString="metadata=res://*/CompanyModel.csdl|res://*/CompanyModel.ssdl|res://*/CompanyModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+Company\DataGenerator\App.config
+
+Connection string for "Cars" database: (location)   <add name="DatabaseContext" connectionString="data source=(LocalDb)\v11.0;initial catalog=DealerDatabase;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+
+Dealers\Importer\App.config
+
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+Employees : Reports - one to many
+Employees ( ManagerId ) : Employees  - one to many
+Departments : Employees - one to many
+Employees : Projects - many to many with EmployeesProjects table.
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+Manufacturer : Car - one to many
+Dealer : City - may to many
+Car : Dealer one to many
+
+
+Query files: (file location in solution)

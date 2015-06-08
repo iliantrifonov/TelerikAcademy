@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calcStyle.css" />
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="top-line">
+            <div> Calculator</div>
+            <div class="windows-btns">
+                <div class="minimize" id="minimize">&#95;</div>
+                <div class="maximize" id="maximize">&square;</div>
+                <div class="close" id="close">&times;</div>
+            </div>
+        </div>
+
+        <div class="calc">
+
+            <div class="windows-menu-div">
+                <ul class="windows-menu">
+                    <li><a href="#">View</a></li>
+                    <li><a href="#">Edit</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+
+            <div class="calc-content">
+
+                <form>
+
+                    <div class="display">
+                        <input type="text" value="885455" />
+                    </div>
+
+                    <div class="binary-repr">
+                        <div class="white-border">
+                            <ul class="binary-row">
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                            </ul>
+
+                            <ul class="binary-row">
+                                <li>63</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li style="position:relative; right:6px">47</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li style="position:relative; right:6px">32</li>
+                            </ul>
+
+
+                            <ul class="binary-row">
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>1000</li>
+                                <li>0111</li>
+                                <li>0001</li>
+                                <li>1011</li>
+                                <li>1011</li>
+                                <li>0111</li>
+                            </ul>
+
+                            <ul class="binary-row">
+                                <li>31</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li style="position:relative; right:6px">15</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                <li style="position:relative; right:1px">0</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="buttons-grid">
+
+                        <div class="radio-grid">
+                            <div class="numericSystem menu">
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="numSys" value="1" id="Hex" />
+                                        <label for="Hex">Hex</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="numSys" value="2" id="Dec" checked />
+                                        <label for="Dec">Dec</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="numSys" value="3" id="Oct" />
+                                        <label for="Oct">Oct</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="numSys" value="4" id="Bin" />
+                                        <label for="Bin">Bin</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="word menu">
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="word" value="1" id="Qword" checked />
+                                        <label for="Qword">Qword</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="word" value="2" id="Dword" />
+                                        <label for="Dword">Dword</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="word" value="3" id="Word" />
+                                        <label for="Word">Word</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="word" value="4" id="Byte" />
+                                        <label for="Byte">Byte</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="keyboard">
+                            <div class="row">
+                                <button class="btn disabled" disabled>&nbsp;</button>
+                                <button class="btn active styled" id="mod">Mod</button>
+                                <button class="btn disabled letter" disabled>A</button>
+                                <button class="btn active unstyled">MC</button>
+                                <button class="btn active unstyled">MR</button>
+                                <button class="btn active unstyled">MS</button>
+                                <button class="btn active unstyled">M+</button>
+                                <button class="btn active unstyled">M-</button>
+                            </div>
+
+                            <div class="row">
+                                <button class="btn active styled">(</button>
+                                <button class="btn active styled">)</button>
+                                <button class="btn disabled letter" disabled>B</button>
+                                <button class="btn active styled">&#8592</button>
+                                <button class="btn active styled">CE</button>
+                                <button class="btn active styled">C</button>
+                                <button class="btn active styled">&#177;</button>
+                                <button class="btn disabled" disabled>&radic;</button>
+                            </div>
+
+                            <div class="row">
+                                <button class="btn active styled">RoL</button>
+                                <button class="btn active styled">RoR</button>
+                                <button class="btn disabled  letter" disabled>C</button>
+                                <button class="btn active styled-number">7</button>
+                                <button class="btn active styled-number">8</button>
+                                <button class="btn active styled-number">9</button>
+                                <button class="btn active styled">/</button>
+                                <button class="btn disabled" disabled>%</button>
+                            </div>
+
+                            <div class="row">
+                                <button class="btn active styled">Or</button>
+                                <button class="btn active styled">Xor</button>
+                                <button class="btn disabled  letter" disabled>D</button>
+                                <button class="btn active styled-number">4</button>
+                                <button class="btn active styled-number">5</button>
+                                <button class="btn active styled-number">6</button>
+                                <button class="btn active styled">*</button>
+                                <button class="btn disabled" disabled>1/<span class="itl-x">x</span></button>
+                            </div>
+
+                            <div class="row">
+                                <button class="btn active styled">Lsh</button>
+                                <button class="btn active styled">Rsh</button>
+                                <button class="btn disabled letter" disabled>E</button>
+                                <button class="btn active styled-number">1</button>
+                                <button class="btn active styled-number">2</button>
+                                <button class="btn active styled-number">3</button>
+                                <button class="btn active styled">-</button>
+                            </div>
+
+                            <div class="row">
+                                <button class="btn active styled">Not</button>
+                                <button class="btn active styled">And</button>
+                                <button class="btn disabled  letter" disabled>F</button>
+                                <button class="btn active styled-number zero">0</button>
+                                <button class="btn disabled" disabled>.</button>
+                                <button class="btn active styled">+</button>
+                            </div>
+
+                            <div class="equal">
+                                <button class="btn active styled">=</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SelectEmployeesFromTelerikAcademy", "01.SelectEmployeesFromTelerikAcademy\01.SelectEmployeesFromTelerikAcademy.csproj", "{2D3F09DA-84B7-418B-9E0E-26156A85A956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MakeSelectWithToList", "02.MakeSelectWithToList\02.MakeSelectWithToList.csproj", "{0F3BC014-5195-449B-B4A8-6E8BF397F9BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D3F09DA-84B7-418B-9E0E-26156A85A956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3F09DA-84B7-418B-9E0E-26156A85A956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3F09DA-84B7-418B-9E0E-26156A85A956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3F09DA-84B7-418B-9E0E-26156A85A956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3BC014-5195-449B-B4A8-6E8BF397F9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3BC014-5195-449B-B4A8-6E8BF397F9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3BC014-5195-449B-B4A8-6E8BF397F9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3BC014-5195-449B-B4A8-6E8BF397F9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

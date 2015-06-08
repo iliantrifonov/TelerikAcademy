@@ -1,0 +1,11 @@
+﻿<Window x:Class="MongoChat.WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Name="User" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="User name" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="ListMessages" HorizontalAlignment="Left" Height="190" Margin="10,38,0,0" VerticalAlignment="Top" Width="497"/>
+        <TextBox Name="Message" HorizontalAlignment="Left" Height="45" Margin="10,233,0,0" TextWrapping="Wrap" Text="Message" VerticalAlignment="Top" Width="497"/>
+        <Button Content="Send message" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Width="497" Height="27" Click="Button_Click"/>
+    </Grid>
+</Window>

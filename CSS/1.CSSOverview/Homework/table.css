@@ -1,0 +1,47 @@
+﻿body {
+}
+table {
+    border-collapse:collapse;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color:white;
+}
+tbody tr:nth-child(even) {
+    background-color:beige;
+}
+th.contact {
+    width:150px;
+}
+.city, .country {
+    width:130px;
+}
+.promoted {
+    width: 100px;
+}
+
+thead {
+    background-color: #5DC206;
+    color: white;
+    font-style:normal;
+    font-weight:normal;
+    text-align:left;
+}
+th {
+    font-weight: normal;
+    border-style:outset;
+    border-width: 2px;
+    border-color: lightgreen;
+}
+td {
+    border-left:solid;
+    border-color:#dddd9b;
+    border-width: 1px;
+}
+input[type="checkbox"] {
+    border:inset;
+    border-width:11px;
+}
+
+

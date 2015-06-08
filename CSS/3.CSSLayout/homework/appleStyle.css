@@ -1,0 +1,84 @@
+﻿body, html, img, button, div, p, section, article, button, h2,h1, input, form {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+html, body, #wrapper {
+    font-size:10px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+#wrapper {
+    width: 945px;
+}
+
+section, .inline-block {
+    display:inline-block;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #4CC7F4;
+}
+
+div {
+    font-size: 1.8rem;
+}
+
+.inline-block {
+    padding: 10px;
+}
+
+.right {
+    margin-top: 20px;
+}
+
+.left {
+    text-align: center;
+}
+
+legend {
+    font-size: 1.8rem;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.section-left {
+    border: 2px solid #717171;
+    padding: 5px;
+    width: 691px;
+    float: left;
+}
+
+.section-right {
+    width:240px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.radio {
+    margin-top: 80px;
+}
+
+fieldset {
+    border-color: #717171;
+}

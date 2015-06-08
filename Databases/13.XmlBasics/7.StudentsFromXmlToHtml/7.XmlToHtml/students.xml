@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students name="List Of Students">
+  <student>
+    <name>Ivan Ivanov</name>
+    <sex>M</sex>
+    <birthDate>01.05.2221</birthDate>
+    <phone>02222222</phone>
+    <email>vankata@abv.bg</email>
+    <course>CSS</course>
+    <specialty>stuff</specialty>
+    <facultyNumber>00000000</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>CSS</name>
+        <tutor>Peshkata</tutor>
+        <score>20</score>
+      </exam>
+      <exam>
+        <name>XML</name>
+        <tutor>Help Helperson</tutor>
+        <score>100000</score>
+      </exam>
+    </takenExams>
+  </student>
+  <student>
+    <name>Peter Petrov</name>
+    <sex>M</sex>
+    <birthDate>20.01.2000</birthDate>
+    <phone>5555555</phone>
+    <email>peshi@abv.bg</email>
+    <course>Databases :(</course>
+    <specialty>Meow</specialty>
+    <facultyNumber>2222222</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>HQC</name>
+        <tutor>Stamat</tutor>
+        <score>17</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Niki</tutor>
+        <score>0</score>
+      </exam>
+    </takenExams>
+  </student>
+</students>
