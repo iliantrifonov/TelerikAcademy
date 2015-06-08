@@ -1,0 +1,31 @@
+﻿<div class="container animated fadeInRight">
+    <h1 class="text-center">Play Tic Tac Toe</h1>
+    <div class="">
+        <div class="">
+            <button class="btn btn-success" ng-click="play(1,1)">{{ gameData.Board[0] }}</button>
+            <button class="btn btn-success" ng-click="play(1,2)">{{ gameData.Board[1] }}</button>
+            <button class="btn btn-success" ng-click="play(1,3)">{{ gameData.Board[2] }}</button>
+        </div>
+        <div class="">
+            <button class="btn btn-success" ng-click="play(2,1)">{{ gameData.Board[3] }}</button>
+            <button class="btn btn-success" ng-click="play(2,2)">{{ gameData.Board[4] }}</button>
+            <button class="btn btn-success" ng-click="play(2,3)">{{ gameData.Board[5] }}</button>
+        </div>
+        <div class="">
+            <button class="btn btn-success" ng-click="play(3,1)">{{ gameData.Board[6] }}</button>
+            <button class="btn btn-success" ng-click="play(3,2)">{{ gameData.Board[7] }}</button>
+            <button class="btn btn-success" ng-click="play(3,3)">{{ gameData.Board[8] }}</button>
+        </div>
+    </div>
+    <hr />
+    <h3>
+        {{ gameData.State | gameStateFilter }}
+    </h3>
+    <h2>
+        {{ gameData.FirstPlayerName }} playing X
+    </h2>
+    <h2>
+        {{ gameData.SecondPlayerName }} playing O
+    </h2>
+    <button class="btn btn-success" ng-click="update()">Refresh</button>
+</div> 
