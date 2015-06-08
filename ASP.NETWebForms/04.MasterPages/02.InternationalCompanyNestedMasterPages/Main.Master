@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="_02.InternationalCompanyNestedMasterPages.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1 id="welcome-text">Welcome to our an International Company... :P</h1>
+            <asp:HyperLink runat="server" NavigateUrl="~/Bulgaria/Home.aspx"
+                Text="Bulgaria" />
+            <asp:HyperLink runat="server" NavigateUrl="~/USA/Home.aspx"
+                Text="USA" />
+            <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

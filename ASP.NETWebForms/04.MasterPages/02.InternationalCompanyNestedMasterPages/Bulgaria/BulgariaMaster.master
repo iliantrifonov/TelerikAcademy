@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="BulgariaMaster.master.cs" Inherits="_02.InternationalCompanyNestedMasterPages.Bulgaria.BulgariaMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
+    <asp:HyperLink runat="server" NavigateUrl="~/Bulgaria/Home.aspx"
+                    Text="Информация"/>
+    <asp:HyperLink runat="server" NavigateUrl="~/Bulgaria/About.aspx"
+        Text="За нас" />
+    <asp:HyperLink runat="server" NavigateUrl="~/Bulgaria/Contacts.aspx"
+        Text="Контакти" />
+    <h1>Това е българския клон на нашата интернационална компания</h1>
+    <asp:ContentPlaceHolder ID="InnerContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

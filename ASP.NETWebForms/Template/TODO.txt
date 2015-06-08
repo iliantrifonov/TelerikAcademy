@@ -1,0 +1,9 @@
+In webconfig -> uncomment :
+
+<customErrors defaultRedirect="~/ErrorPage.aspx" mode="On" >
+<!--<error statusCode="404" redirect="~/ErrorPage.aspx" />
+<error statusCode="500" redirect="~/ErrorPage.aspx" />-->
+</customErrors>
+
+
+-----------
