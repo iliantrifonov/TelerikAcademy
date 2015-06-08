@@ -1,0 +1,11 @@
+﻿namespace Web.Infrastructure.Constants
+{
+    public class FileConstants
+    {
+        public static string[] AllowedPictureExtentions = new[] { ".jpeg", ".jpg", ".png" };
+
+        public static string[] AllowedNonSubtitleExtentions = new[] { ".srt", ".sub", ".txt", ".doc", ".docx", ".xls", ".xlsx", ".rtf" };
+
+        public static string[] AllowedSubtitleExtentions = new[] { ".srt", ".sub", ".txt", ".zip" };
+    }
+}
