@@ -1,0 +1,20 @@
+﻿<div class="container jumbotron">
+    <h1 class="text-center">{{ product.name }}</h1>
+    <p class="text-center"><img src="{{ product.pic }}" /></p>
+    <p>{{ product.details.Information }}</p>
+    <p><div class="btn btn-primary btn-lg pull-right" ng-click="showLearnMore()">{{ learnMoreText }}</div></p>
+    <p ng-show="isShown" class="well">{{ product.details.details }}</p>
+
+    <ul class="nav nav-tabs">
+        <li class="" ng-repeat="p in products">
+            <a href="#{{p.id}}" target="_self" data-toggle="tab">{{ p.name }}</a>
+        </li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div ng-repeat="p in products" class="tab-pane fade" id="{{p.id}}">
+            <p>
+                <img src="{{p.pic}}" alt="{{ p.name }}" />
+            </p>
+        </div>
+    </div>
+</div>

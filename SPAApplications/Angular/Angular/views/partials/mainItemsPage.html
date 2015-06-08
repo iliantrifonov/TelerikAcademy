@@ -1,0 +1,20 @@
+﻿<div class="container panel panel-default animated fadeInRight">
+    <h1>Flowers</h1>
+    <div dir-pagination-controls></div>
+    <input type="text" ng-model="search" />
+    <select ng-model="sort">
+        <option value="id">By Id</option>
+        <option value="name" ng-selected="true">By Name</option>
+        <option value="pic">By picture URL?</option>
+        <option value="-pic">Oposite picture URL..</option>
+    </select>
+    <div class="panel-body" dir-paginate="product in products | orderBy: sort | searchInNameOrInformation: search | limitTo: 50 | itemsPerPage: 2">
+        <div><a href="#/products/{{ product.id }}">{{ product.name }}</a></div>
+        <div class="panel-body animated zoomIn"><img src="{{ product.pic }}" alt="img" width="200px" /></div>
+        <div class="panel-body" ng-if="product.type !== null && product.type !== undefined">
+            {{ product.type | typeFilter }}
+        </div>
+    </div>
+
+    <div dir-pagination-controls></div>
+</div>

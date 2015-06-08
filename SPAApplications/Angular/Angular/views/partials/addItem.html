@@ -1,0 +1,62 @@
+﻿<div class="container animated fadeInRight">
+    <form ng-submit="addPicture()" name="addForm" class="form-horizontal">
+        <h1 class="text-center">Add Flower</h1>
+        <fieldset>
+            <legend>Main Information</legend>
+            <div class="form-group">
+                <label for="name" class="col-lg-2 control-label">Name: </label>
+                <div class="col-lg-10">
+                    <input ng-model="picture.name" class="form-control" required id="name" placeholder="Name" type="text">
+                </div>
+                <hr />
+                <label for="id" class="col-lg-2 control-label">Id: </label>
+                <div class="col-lg-10">
+                    <input ng-model="picture.id" class="form-control" required id="id" placeholder="Id" type="number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="pic" class="col-lg-2 control-label">Picture: </label>
+                <div class="col-lg-10">
+                    <input ng-model="picture.pic" class="form-control" required id="pic" placeholder="URL" type="url">
+                </div>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Preview</legend>
+            <div class=" form-group">
+                <div class="col-lg-12 text-center">
+                    <img width="400px" height="300px" src="{{ picture.pic }}" alt="No picture" />
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Information</legend>
+            <div class="form-group">
+                <label for="details" class="col-lg-2 control-label">Details: </label>
+                <div class="col-lg-10">
+                    <textarea ng-model="picture.details.details" class="form-control" required id="details" placeholder="Details..." rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="info" class="col-lg-2 control-label">Information: </label>
+                <div class="col-lg-10">
+                    <textarea ng-model="picture.details.Information" class="form-control" required id="info" placeholder="Add addtional information here" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="info" class="col-lg-2 control-label">Date: </label>
+                <div class="col-lg-10 col-lg-offset-2">
+                    <input type="datetime-local" class="form-control" ng-model="picture.details.date" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button ng-click="redirect()" class="btn btn-default">Cancel</button>
+                    <input type="submit" class="btn btn-primary" id="submit" ng-disabled="addForm.$invalid && validUser" value="Submit" />
+                </div>
+            </div>
+            
+        </fieldset>
+    </form>
+</div>
