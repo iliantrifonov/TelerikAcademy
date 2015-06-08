@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Crowd chat</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script data-main="scripts/app" src="scripts/require.js"></script>
+</head>
+<body>
+    <div id="container">
+        <input type="text" placeholder="name" class="name" />
+        <div class="chat-posts">
+
+        </div>
+        <div class="send">
+            <textarea class="input">
+            </textarea>
+            <button class="post">Send message</button>
+        </div>
+    </div>
+    <script type="text/x-template" id="m">
+        <div class="border">
+            <div class="by">{{by}}</div>
+            <div class="text">{{text}}</div>
+        </div>
+    </script>
+</body>
+</html>

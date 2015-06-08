@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tesing Mocha</title>
+    <link href="Content/mocha.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="mocha"></div>
+    <!-- include mocha.js and chai.js -->
+    <script src="Scripts/specs/bdd/chai.js"></script>
+    <script src="Scripts/specs/bdd/mocha.js"></script>
+    <script type="text/javascript">
+        mocha.setup('bdd');
+        expect = chai.expect;
+    </script>
+    <!-- import javascript files and test files -->
+    <script src="Scripts/actual.js"></script>
+    <script src="Scripts/test.js"></script>
+    <script type="text/javascript">
+        mocha.run();
+    </script>
+</body>
+</html>

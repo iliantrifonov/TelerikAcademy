@@ -1,0 +1,16 @@
+﻿.hidden {
+    display: none;
+}
+
+.shell {
+    display:inline-block;
+    border: 1px solid black;
+}
+
+body .selected {
+    display:block;
+}
+
+#container {
+    position:absolute;
+}

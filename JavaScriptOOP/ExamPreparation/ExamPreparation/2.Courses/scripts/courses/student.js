@@ -1,0 +1,19 @@
+define(function () {
+    'use strict';
+    var Student;
+    Student = (function () {
+        function Student(obj) {
+            this.name = obj.name;
+            this.exam = obj.exam;
+            this.homework = obj.homework;
+            this.attendance = obj.attendance;
+            this.teamwork = obj.teamwork;
+            this.bonus = obj.bonus;
+            this.courseScore;
+        }
+
+        return Student;
+    })();
+
+    return Student;
+});
